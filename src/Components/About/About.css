@@ -1,0 +1,88 @@
+.containerAbout{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+.aboutMe{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
+    display: grid;
+    place-items: center;
+
+}
+.aboutMe img{
+    height: 70vh;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 400ms ease;
+}
+.aboutMe img:hover{
+    transform: rotate(0deg);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+.card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: all 400ms ease;
+}
+.card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.card .aboutIcon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.card h5{
+    font-size: 0.95rem;
+}
+.card h6{
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+p{
+    margin: 0.4rem 0 2.6rem;
+    color: var(--color-light);
+}
+@media screen and (max-width:1024px) {
+    .containerAbout{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .aboutMe{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    p{
+        margin: 1rem 0 1.5rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .aboutMe{
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    p{
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+    a{
+        text-align: center;
+    }
+}
