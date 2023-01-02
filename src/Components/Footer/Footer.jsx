@@ -5,7 +5,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 const Footer = () => {
   return (
     <footer id='footer'>
-      <a href="#" className='footerLogo'>EGATOR</a>
+      <a href="#" className='footerLogo'>At The End</a>
 
       <ul className='links'>
         <li><a href="#">Home</a></li>
