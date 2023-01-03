@@ -27,7 +27,7 @@ const data = [
     image:p3,
     title:'Trends WebSite - API, ReactJs',
     github:'https://github.com/rabukhader/Trends',
-    demo:''
+    demo:'https://trendsreact.onrender.com'
   },
   {
     id:4,
@@ -48,7 +48,7 @@ const data = [
     image:p6,
     title:'CRUD (To Do LIST) - ReactJs',
     github:'https://github.com/rabukhader/To-Do-List--react',
-    demo:''
+    demo:'https://todolistreact.onrender.com/'
   }
 ]
 const Portfolio = () => {
