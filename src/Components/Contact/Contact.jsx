@@ -26,21 +26,21 @@ const Contact = () => {
           <BsFillEnvelopeFill className='icon'/>
           <h4>Email</h4>
           <h5>rasheedabukhader123@gmail.com</h5>
-          <a href="mailto:rasheedabukhader123@gmail.com" target='_blank'>Send a Message</a>
+          <a href="mailto:rasheedabukhader123@gmail.com" rel='noreferrer' target='_blank'>Send a Message</a>
         </div>
 
         <div className="option">
           <FaFacebookMessenger className='icon'/>
           <h4>FaceBook Massenger</h4>
           <h5>Rasheed Abu Khader</h5>
-          <a href="https://www.facebook.com/rasheed.abukhader.5" target='_blank'>Send a Message</a>
+          <a href="https://www.facebook.com/rasheed.abukhader.5" rel='noreferrer' target='_blank'>Send a Message</a>
         </div>
 
         <div className="option">
           <ImWhatsapp className='icon'/>
           <h4>WhatsApp</h4>
           <h5>+972592844743</h5>
-          <a href="https://api.whatsapp.com/send?phone=+972592844743" target='_blank'>Send a Message</a>
+          <a href="https://api.whatsapp.com/send?phone=+972592844743" rel='noreferrer' target='_blank'>Send a Message</a>
         </div>
       </div>
       <form ref={form} onSubmit={sendEmail}>

@@ -16,9 +16,9 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footerSocials">
-        <a href="https://www.facebook.com/rasheed.abukhader.5" target='_blank'><BsFacebook/></a>
-        <a href="https://www.instagram.com/rasheed_abu_khader/?next=%2F" target='_blank'><AiFillInstagram/></a>
-        <a href="https://twitter.com/Rasheed_imad" target='_blank'><BsTwitter/></a>
+        <a href="https://www.facebook.com/rasheed.abukhader.5" rel='noreferrer' target='_blank'><BsFacebook/></a>
+        <a href="https://www.instagram.com/rasheed_abu_khader/?next=%2F" rel='noreferrer' target='_blank'><AiFillInstagram/></a>
+        <a href="https://twitter.com/Rasheed_imad" rel='noreferrer' target='_blank'><BsTwitter/></a>
       </div>
 
       <div className="copyRight">
