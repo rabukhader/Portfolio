@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import {AiOutlineUser, AiOutlineHome} from 'react-icons/ai'
 import {BiBook , BiMessageSquareAdd} from 'react-icons/bi'

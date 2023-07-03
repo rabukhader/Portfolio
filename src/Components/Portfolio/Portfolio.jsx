@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './Portfolio.css'
 import p1 from '../../assets/p1.jpg'
