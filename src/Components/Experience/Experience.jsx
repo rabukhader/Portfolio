@@ -60,6 +60,13 @@ const Experience = () => {
                   <h6 className='text-light'>Intermidiate</h6>
                 </div>
               </div>
+              <div className="detail">
+                <BsPatchCheckFill className='icon'/>
+                <div>
+                  <h4>Flutter</h4>
+                  <h6 className='text-light'>Intermidiate</h6>
+                </div>
+              </div>
             </div>
         </div>
         <div className="back">
@@ -82,7 +89,21 @@ const Experience = () => {
             <div className="detail">
               <BsPatchCheckFill className='icon'/>
               <div>
-                <h4>MongoDB</h4>
+                <h4>Firebase</h4>
+                <h6 className='text-light'>Begginer</h6>
+              </div>
+            </div>
+            <div className="detail">
+              <BsPatchCheckFill className='icon'/>
+              <div>
+                <h4>Python-django</h4>
+                <h6 className='text-light'>Begginer</h6>
+              </div>
+            </div>
+            <div className="detail">
+              <BsPatchCheckFill className='icon'/>
+              <div>
+                <h4>Python-Flask</h4>
                 <h6 className='text-light'>Begginer</h6>
               </div>
             </div>

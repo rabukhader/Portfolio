@@ -76,7 +76,7 @@ const Services = () => {
 
         <div className="service">
           <div className="head">
-            <h3>Volunteering</h3>
+            <h3>Team Work</h3>
           </div>
 
           <ul className='serviceList'>

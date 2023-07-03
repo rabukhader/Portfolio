@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import CV from '../../assets/(RasheedAbuKhader)CV.pdf'
-import ME from '../../assets/my_photo-removebg-preview.png'
+import ME from '../../assets/me2.jpg'
 import HeaderSocials from './HeaderSocials';
 const Header = () => {
   return (

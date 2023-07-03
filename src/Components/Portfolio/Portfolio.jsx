@@ -1,11 +1,11 @@
 import React from 'react'
 import './Portfolio.css'
 import p1 from '../../assets/p1.jpg'
-import p2 from '../../assets/p2.jpg'
+import p2 from '../../assets/p2.png'
 import p3 from '../../assets/p3.jpg'
-import p4 from '../../assets/p4.jpg'
-import p5 from '../../assets/p5.jpg'
-import p6 from '../../assets/p6.jpg'
+import p4 from '../../assets/balance-scale.png'
+import p5 from '../../assets/Group 30 (1).png'
+import p6 from '../../assets/file-chart.png'
 
 const data = [
   {
@@ -18,9 +18,9 @@ const data = [
   {
     id:2,
     image:p2,
-    title:'Portfolio - HTML CSS',
-    github:'https://github.com/rabukhader/HTML-CSS-Portfolio',
-    demo:'https://637e3a728f98a10087c6c07b--deft-cactus-51b276.netlify.app/'
+    title:'Intelligent Chatbot - Front End Part ',
+    github:'https://github.com/rabukhader/ChatBot-FrontEnd',
+    demo:'https://github.com/rabukhader/ChatBot-FrontEnd'
   },
   {
     id:3,
@@ -32,16 +32,16 @@ const data = [
   {
     id:4,
     image:p4,
-    title:'Playing Football - JavaScript',
-    github:'https://github.com/rabukhader/Playing-Footbal-',
-    demo:'https://rabukhader.github.io/Playing-Footbal-/'
+    title:'Shopping List',
+    github:'https://github.com/rabukhader/Shopping-List',
+    demo:'https://github.com/rabukhader/Shopping-List'
   },
   {
     id:5,
     image:p5,
-    title:'Calculator - JavaScript',
-    github:'https://github.com/rabukhader/Calculator',
-    demo:'https://rabukhader.github.io/Calculator/'
+    title:'Master Class Mobile App',
+    github:'https://github.com/rabukhader/Master_Class',
+    demo:'https://github.com/rabukhader/Master_Class'
   },
   {
     id:6,
